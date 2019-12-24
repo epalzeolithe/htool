@@ -473,9 +473,9 @@ def main():
     parser.add_argument("-phone", help="phone number")
     parser.add_argument("-msg", help="message to send")
     parser.add_argument("-s", action='store_true', help="signal infos")
-    parser.add_argument("-sloop", action='store_true', help="signal infos")
+    parser.add_argument("-sloop", action='store_true', help="signal infos in loop")
     parser.add_argument("-stat", action='store_true', help="get traffic-statistics")
-    parser.add_argument("-statloop", action='store_true', help="get traffic-statistics in loop, download rate in bytes / s")
+    parser.add_argument("-statloop", action='store_true', help="get traffic-statistics in loop, with no verbose download rate in bytes/s")
 
     args = parser.parse_args()
 

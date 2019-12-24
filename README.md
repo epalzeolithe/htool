@@ -2,44 +2,45 @@
 
 Python3 tool to manipulate last Huawei 4G/LTE routeur
 
-For example : 
-python3 htool.py -v -ip 192.168.10.1 -u admin -p password -sb 4
+For example :
+
+`python3 htool.py -v -ip 192.168.10.1 -u admin -p password -sb 4`
 > this force 1800Mhz mode
 
 
 Here's the automatic help :
 
-usage: htool.py [-h] [-ip IP] [-u U] [-p P] [-gb] [-sb SB] [-r] [-v] [-sms][-phone PHONE] [-msg MSG] [-s] [-sloop] [-stat] [-statloop]
-
+`htool.py [-h] [-ip IP] [-u U] [-p P] [-gb] [-sb SB] [-r] [-v] [-sms][-phone PHONE] [-msg MSG] [-s] [-sloop] [-stat] [-statloop]
+`
 > optional arguments:
 
-  -h, --help    show this help message and exit
+`  -h, --help    show this help message and exit`
   
-  -ip IP        router IP
+`  -ip IP        router IP`
   
-  -u U          username
+`  -u U          username`
   
-  -p P          password
+`  -p P          password`
   
-  -gb           getband in XML format
+`  -gb           getband in XML format`
   
-  -sb SB        setband 700Mhz=8000000 800Mhz=80000 1800Mz=4 2100Mhz=1 2600Mhz=40 (you can add for aggregations)
+  `-sb SB        setband 700Mhz=8000000 800Mhz=80000 1800Mz=4 2100Mhz=1 2600Mhz=40 (you can add for aggregations)`
                 
-  -r            reboot
+`  -r            reboot`
   
-  -v            verbose mode
+`  -v            verbose mode`
   
-  -sms          send sms
+ ` -sms          send sms`
   
-  -phone PHONE  phone number
+`  -phone PHONE  phone number`
   
-  -msg MSG      message to send
+`  -msg MSG      message to send`
   
-  -s            signal infos
+ ` -s            signal infos`
   
-  -sloop        signal infos
+`  -sloop        signal infos in loop`
   
-  -stat         get traffic-statistics
+`  -stat         get traffic-statistics`
   
-  -statloop     get traffic-statistics in loop, download rate in bytes / s
+ ` -statloop     get traffic-statistics in loop, download rate in bytes / s`
   
