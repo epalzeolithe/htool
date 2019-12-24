@@ -1,6 +1,6 @@
-# htool
+# HTOOL.PY
 
-Python3 tool to manipulate last Huawei 4G/LTE routeur
+Python3 tool to manipulate last Huawei 4G/LTE router
 
 For example :
 
