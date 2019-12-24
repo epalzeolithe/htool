@@ -12,6 +12,7 @@ Here's the automatic help :
 usage: htool.py [-h] [-ip IP] [-u U] [-p P] [-gb] [-sb SB] [-r] [-v] [-sms][-phone PHONE] [-msg MSG] [-s] [-sloop] [-stat] [-statloop]
 
 > optional arguments:
+
   -h, --help    show this help message and exit
   
   -ip IP        router IP
