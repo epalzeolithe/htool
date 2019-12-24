@@ -1,6 +1,6 @@
 # htool
 
-Python3 tool to manipulate last Huawei device
+Python3 tool to manipulate last Huawei 4G/LTE routeur
 
 For example : 
 python3 htool.py -v -ip 192.168.10.1 -u admin -p password -sb 4
@@ -11,7 +11,7 @@ Here's the automatic help :
 
 usage: htool.py [-h] [-ip IP] [-u U] [-p P] [-gb] [-sb SB] [-r] [-v] [-sms][-phone PHONE] [-msg MSG] [-s] [-sloop] [-stat] [-statloop]
 
-optional arguments:
+> optional arguments:
   -h, --help    show this help message and exit
   
   -ip IP        router IP
