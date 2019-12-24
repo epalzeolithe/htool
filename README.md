@@ -2,10 +2,18 @@
 
 Python3 tool to manipulate last Huawei 4G/LTE router
 
+Pretty useful to command the router from frontend like node-red
+
 For example :
 
 `python3 htool.py -v -ip 192.168.10.1 -u admin -p password -sb 4`
 > this force 1800Mhz mode
+
+`python3 htool.py -v -ip 192.168.10.1 -u admin -p password -sloop`
+> to get continuous info on LTE signals
+
+`python3 htool.py -v -ip 192.168.10.1 -u admin -p password -statloop`
+> to have download rate
 
 
 Here's the automatic help :
